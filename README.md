@@ -36,7 +36,7 @@ While CSVs served as a practical and accessible format for this portfolio projec
 
                     
 
-# Data Modeling 
+## Data Modeling 
 established a robust star schema by connecting Transaction_Data to Customers, Products, and Stores using primary/foreign key relationships. An additional inactive relationship was created between Transaction_Data and Calendar on stock_date for advanced analysis. Return_Data was integrated with Products, Calendar, and Stores via their respective keys. Furthermore, Stores was connected to Regions to form a snowflake extension for geographical analysis
 
 ![image](https://github.com/user-attachments/assets/86cd25ad-a660-4b2b-a85e-6c1a98845d13)   
