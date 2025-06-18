@@ -56,4 +56,4 @@ While CSVs served as a practical and accessible format for this portfolio projec
 In conclusion, this Power BI retail sales report for successfully transforms raw data into actionable business intelligence, leveraging a robust dimensional model and DAX for key KPIs like Total Sales, Profit Margin, Transactions, and Return Rates. 
 This empowers data-driven decisions for product performance and profitability. 
 
-While this project used manageable datasets for demosnstration, It's important to note that scaling to large data volumes in production is necessary to pre-aggregation or use summarized tables directly at the database level for tables such as Product, Customer, Transaction Data to enhance Power BI performance and avoid data loading issues.
+### While this project used manageable datasets for demosnstration, It's important to note that scaling to large data volumes in production is necessary to pre-aggregation or use summarized tables directly at the database level for tables such as Product, Customer, Transaction Data to enhance Power BI performance and avoid data loading issues.
