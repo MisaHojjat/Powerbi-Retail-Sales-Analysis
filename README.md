@@ -21,13 +21,23 @@ While CSVs served as a practical and accessible format for this portfolio projec
   - Weekly Revenue Trending(sales)   
 - Geographic Analysis      
   - Store distribution and footprint
+    
+## Process
 
- ![image](https://github.com/user-attachments/assets/01b4c8ad-0469-4319-89f9-4282e55be15b)
-
-      
-
-
-
+- Data Connection & Transformation (Power Query): cleaning, shaping, and preparation to ensure data integrity and usability including missing data verification
+- Data Modeling: established a robust star schema by connecting Transaction_Data to Customers, Products, and Stores using primary/foreign key relationships. An additional inactive relationship was created between Transaction_Data and Calendar on stock_date for advanced analysis. Return_Data was integrated with Products, Calendar, and Stores via their respective keys. Furthermore, Stores was connected to Regions to form a snowflake extension for geographical analysis
+- DAX (Data Analysis Expressions): calculated columns using DAX to derive key performance indicators (KPIs) such as Total Sales, Sales Growth, Average Transaction Value
+- Interactive Report Design: Identified trends, utilized slicer and drop down filter
 
 
-![image](https://github.com/user-attachments/assets/c79c748d-c536-4c92-aafa-83871452d861)
+## Dashboard
+
+ ![image](https://github.com/user-attachments/assets/01b4c8ad-0469-4319-89f9-4282e55be15b)   
+
+                    
+
+# Data Modeling 
+established a robust star schema by connecting Transaction_Data to Customers, Products, and Stores using primary/foreign key relationships. An additional inactive relationship was created between Transaction_Data and Calendar on stock_date for advanced analysis. Return_Data was integrated with Products, Calendar, and Stores via their respective keys. Furthermore, Stores was connected to Regions to form a snowflake extension for geographical analysis
+
+![image](https://github.com/user-attachments/assets/86cd25ad-a660-4b2b-a85e-6c1a98845d13)   
+
